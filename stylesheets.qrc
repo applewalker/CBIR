@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/coffee.qss</file>
+        <file>qss/metro.qss</file>
+    </qresource>
+</RCC>

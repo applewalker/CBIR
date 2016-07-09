@@ -1,0 +1,131 @@
+QMainWindow{
+background-color: #EFEFEF;
+}
+
+QLabel#label{
+background-color:#ABABAB;
+color:#fff;
+
+padding:1px;
+}
+
+QLabel#titlelabel{
+color:#fff;
+
+padding:1px;
+}
+.QFrame{
+    
+border:1px solid #D8D8D8;
+border-radius:5px;
+}
+QMenuBar::item{
+background-color:#ABABAB;
+
+padding:5px;
+
+}
+QMenuBar{
+background-color:#ABABAB;
+padding:5px;
+        font: 12pt "MS Shell Dlg 2";
+}
+QStatusBar{
+background-color:#1d1d1d;
+
+}
+
+QMenu{
+background-color:#ABABAB;
+border:none;
+padding:0;
+}
+
+QMenu::item:selected{
+
+background-color:#2D2D2D;
+}
+
+QTableWidget{
+background-color:#3d3d3d;
+color:#fff;
+  selection-background-color: #da532c;
+border:solid;
+border-width:3px;
+border-color:#da532c;
+}
+QHeaderView::section{
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(20, 158, 217, 255), stop:1 rgba(36, 158, 217, 255));
+border:none;
+border-top-style:solid;
+border-width:1px;
+border-top-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(20, 158, 217, 255), stop:1 rgba(36, 158, 217, 255));
+color:#fff;
+
+}
+QHeaderView{
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(20, 158, 217, 255), stop:1 rgba(36, 158, 217, 255));
+
+border:none;
+border-top-style:solid;
+border-width:1px;
+border-top-color:#149ED9;
+color:#fff;
+	font: 75 12pt "Calibri";
+}
+
+QTableCornerButton::section{
+border:none;
+background-color:#149ED9;
+}
+
+QListWidget{
+background-color:#DEDEDE;
+
+}
+
+
+
+QPushButton{
+border-style:none;
+border:2px solid #5b5b5b;
+background-color:#7b7b7b;
+color:#fff;
+border-radius:7px;
+}
+QPushButton:hover{
+color:#ccc;
+	background-color: qlineargradient(spread:pad, x1:0.517, y1:0, x2:0.517, y2:1, stop:0 rgba(45, 45, 45, 255), stop:0.505682 rgba(45, 45, 45, 255), stop:1 rgba(29, 29, 29, 255));
+	border-color:#2d89ef;
+border-width:2px;
+}
+
+QPushButton:pressed{
+background-color: qlineargradient(spread:pad, x1:0.517, y1:0, x2:0.517, y2:1, stop:0 rgba(29, 29, 29, 255), stop:0.505682 rgba(45, 45, 45, 255), stop:1 rgba(29, 29, 29, 255));
+}
+
+
+QTabWidget::tab{
+background-color:#3d3d3d;
+}
+
+QLineEdit{
+border-radius:0;
+ border:1px solid #D8D8D8;
+}
+
+QProgressBar{
+border-radius:0;
+text-align:center;
+color:#fff;
+background-color:transparent;
+border: 2px solid #e3a21a;
+border-radius:7px;
+	font: 75 12pt "Open Sans";
+
+}
+
+QProgressBar::chunk{
+background-color:#2d89ef;
+width:20px;
+}
